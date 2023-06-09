@@ -80,7 +80,7 @@ const UserList = () => {
       >
         Add User
       </Button>
-      <Box sx={{ height: 500, width: "80%" }}>
+      <Box sx={{ height: 400, width: "80%" }}>
         <DataGrid
           getRowId={(row: any) => row.email_id}
           rows={Data ? Data : []}

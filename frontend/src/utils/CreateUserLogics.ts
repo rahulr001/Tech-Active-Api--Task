@@ -34,9 +34,9 @@ export const CreateUserLogics = () => {
         values
       );
       console.log(res);
-      navigate("/");
+      navigate("/home");
     } catch (err: any) {
-      window.alert(err.response.data.detail);
+      window.alert(err.response.data.error);
       console.log(err);
     }
   };
